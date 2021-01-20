@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFBA150925B7C7D700CCEDFD /* SplitItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA150825B7C7D700CCEDFD /* SplitItApp.swift */; };
+		DFBA150B25B7C7D700CCEDFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA150A25B7C7D700CCEDFD /* ContentView.swift */; };
+		DFBA150D25B7C7D900CCEDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA150C25B7C7D900CCEDFD /* Assets.xcassets */; };
+		DFBA151025B7C7D900CCEDFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA150F25B7C7D900CCEDFD /* Preview Assets.xcassets */; };
+		DFBA151B25B7C7D900CCEDFD /* SplitItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA151A25B7C7D900CCEDFD /* SplitItTests.swift */; };
+		DFBA152625B7C7D900CCEDFD /* SplitItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA152525B7C7D900CCEDFD /* SplitItUITests.swift */; };
+		DFBA152B25B7C7D900CCEDFD /* SplitIt WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DFBA152A25B7C7D900CCEDFD /* SplitIt WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFBA153025B7C7DA00CCEDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA152F25B7C7DA00CCEDFD /* Assets.xcassets */; };
+		DFBA153725B7C7DA00CCEDFD /* SplitIt WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFBA153625B7C7DA00CCEDFD /* SplitIt WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFBA153C25B7C7DA00CCEDFD /* SplitItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA153B25B7C7DA00CCEDFD /* SplitItApp.swift */; };
+		DFBA153E25B7C7DA00CCEDFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA153D25B7C7DA00CCEDFD /* ContentView.swift */; };
+		DFBA154025B7C7DA00CCEDFD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA153F25B7C7DA00CCEDFD /* NotificationController.swift */; };
+		DFBA154225B7C7DA00CCEDFD /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA154125B7C7DA00CCEDFD /* NotificationView.swift */; };
+		DFBA154425B7C7DA00CCEDFD /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA154325B7C7DA00CCEDFD /* ComplicationController.swift */; };
+		DFBA154625B7C7DA00CCEDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA154525B7C7DA00CCEDFD /* Assets.xcassets */; };
+		DFBA154925B7C7DA00CCEDFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA154825B7C7DA00CCEDFD /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFBA151725B7C7D900CCEDFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBA14FD25B7C7D700CCEDFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBA150425B7C7D700CCEDFD;
+			remoteInfo = SplitIt;
+		};
+		DFBA152225B7C7D900CCEDFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBA14FD25B7C7D700CCEDFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBA150425B7C7D700CCEDFD;
+			remoteInfo = SplitIt;
+		};
+		DFBA152C25B7C7D900CCEDFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBA14FD25B7C7D700CCEDFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBA152925B7C7D900CCEDFD;
+			remoteInfo = "SplitIt WatchKit App";
+		};
+		DFBA153825B7C7DA00CCEDFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBA14FD25B7C7D700CCEDFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBA153525B7C7DA00CCEDFD;
+			remoteInfo = "SplitIt WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFBA155125B7C7DA00CCEDFD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DFBA153725B7C7DA00CCEDFD /* SplitIt WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA155525B7C7DA00CCEDFD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DFBA152B25B7C7D900CCEDFD /* SplitIt WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFBA150525B7C7D700CCEDFD /* SplitIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA150825B7C7D700CCEDFD /* SplitItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitItApp.swift; sourceTree = "<group>"; };
+		DFBA150A25B7C7D700CCEDFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFBA150C25B7C7D900CCEDFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBA150F25B7C7D900CCEDFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFBA151125B7C7D900CCEDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBA151625B7C7D900CCEDFD /* SplitItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA151A25B7C7D900CCEDFD /* SplitItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitItTests.swift; sourceTree = "<group>"; };
+		DFBA151C25B7C7D900CCEDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBA152125B7C7D900CCEDFD /* SplitItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA152525B7C7D900CCEDFD /* SplitItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitItUITests.swift; sourceTree = "<group>"; };
+		DFBA152725B7C7D900CCEDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBA152A25B7C7D900CCEDFD /* SplitIt WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplitIt WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA152F25B7C7DA00CCEDFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBA153125B7C7DA00CCEDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBA153625B7C7DA00CCEDFD /* SplitIt WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SplitIt WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA153B25B7C7DA00CCEDFD /* SplitItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitItApp.swift; sourceTree = "<group>"; };
+		DFBA153D25B7C7DA00CCEDFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFBA153F25B7C7DA00CCEDFD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DFBA154125B7C7DA00CCEDFD /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		DFBA154325B7C7DA00CCEDFD /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		DFBA154525B7C7DA00CCEDFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBA154825B7C7DA00CCEDFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFBA154A25B7C7DA00CCEDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBA154B25B7C7DA00CCEDFD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFBA150225B7C7D700CCEDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA151325B7C7D900CCEDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA151E25B7C7D900CCEDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA153325B7C7DA00CCEDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFBA14FC25B7C7D700CCEDFD = {
+			isa = PBXGroup;
+			children = (
+				DFBA150725B7C7D700CCEDFD /* SplitIt */,
+				DFBA151925B7C7D900CCEDFD /* SplitItTests */,
+				DFBA152425B7C7D900CCEDFD /* SplitItUITests */,
+				DFBA152E25B7C7D900CCEDFD /* SplitIt WatchKit App */,
+				DFBA153A25B7C7DA00CCEDFD /* SplitIt WatchKit Extension */,
+				DFBA150625B7C7D700CCEDFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFBA150625B7C7D700CCEDFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA150525B7C7D700CCEDFD /* SplitIt.app */,
+				DFBA151625B7C7D900CCEDFD /* SplitItTests.xctest */,
+				DFBA152125B7C7D900CCEDFD /* SplitItUITests.xctest */,
+				DFBA152A25B7C7D900CCEDFD /* SplitIt WatchKit App.app */,
+				DFBA153625B7C7DA00CCEDFD /* SplitIt WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFBA150725B7C7D700CCEDFD /* SplitIt */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA150825B7C7D700CCEDFD /* SplitItApp.swift */,
+				DFBA150A25B7C7D700CCEDFD /* ContentView.swift */,
+				DFBA150C25B7C7D900CCEDFD /* Assets.xcassets */,
+				DFBA151125B7C7D900CCEDFD /* Info.plist */,
+				DFBA150E25B7C7D900CCEDFD /* Preview Content */,
+			);
+			path = SplitIt;
+			sourceTree = "<group>";
+		};
+		DFBA150E25B7C7D900CCEDFD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA150F25B7C7D900CCEDFD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFBA151925B7C7D900CCEDFD /* SplitItTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA151A25B7C7D900CCEDFD /* SplitItTests.swift */,
+				DFBA151C25B7C7D900CCEDFD /* Info.plist */,
+			);
+			path = SplitItTests;
+			sourceTree = "<group>";
+		};
+		DFBA152425B7C7D900CCEDFD /* SplitItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA152525B7C7D900CCEDFD /* SplitItUITests.swift */,
+				DFBA152725B7C7D900CCEDFD /* Info.plist */,
+			);
+			path = SplitItUITests;
+			sourceTree = "<group>";
+		};
+		DFBA152E25B7C7D900CCEDFD /* SplitIt WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA152F25B7C7DA00CCEDFD /* Assets.xcassets */,
+				DFBA153125B7C7DA00CCEDFD /* Info.plist */,
+			);
+			path = "SplitIt WatchKit App";
+			sourceTree = "<group>";
+		};
+		DFBA153A25B7C7DA00CCEDFD /* SplitIt WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA153B25B7C7DA00CCEDFD /* SplitItApp.swift */,
+				DFBA153D25B7C7DA00CCEDFD /* ContentView.swift */,
+				DFBA153F25B7C7DA00CCEDFD /* NotificationController.swift */,
+				DFBA154125B7C7DA00CCEDFD /* NotificationView.swift */,
+				DFBA154325B7C7DA00CCEDFD /* ComplicationController.swift */,
+				DFBA154525B7C7DA00CCEDFD /* Assets.xcassets */,
+				DFBA154A25B7C7DA00CCEDFD /* Info.plist */,
+				DFBA154B25B7C7DA00CCEDFD /* PushNotificationPayload.apns */,
+				DFBA154725B7C7DA00CCEDFD /* Preview Content */,
+			);
+			path = "SplitIt WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DFBA154725B7C7DA00CCEDFD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA154825B7C7DA00CCEDFD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFBA150425B7C7D700CCEDFD /* SplitIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBA155625B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitIt" */;
+			buildPhases = (
+				DFBA150125B7C7D700CCEDFD /* Sources */,
+				DFBA150225B7C7D700CCEDFD /* Frameworks */,
+				DFBA150325B7C7D700CCEDFD /* Resources */,
+				DFBA155525B7C7DA00CCEDFD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBA152D25B7C7D900CCEDFD /* PBXTargetDependency */,
+			);
+			name = SplitIt;
+			productName = SplitIt;
+			productReference = DFBA150525B7C7D700CCEDFD /* SplitIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFBA151525B7C7D900CCEDFD /* SplitItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBA155925B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitItTests" */;
+			buildPhases = (
+				DFBA151225B7C7D900CCEDFD /* Sources */,
+				DFBA151325B7C7D900CCEDFD /* Frameworks */,
+				DFBA151425B7C7D900CCEDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBA151825B7C7D900CCEDFD /* PBXTargetDependency */,
+			);
+			name = SplitItTests;
+			productName = SplitItTests;
+			productReference = DFBA151625B7C7D900CCEDFD /* SplitItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFBA152025B7C7D900CCEDFD /* SplitItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBA155C25B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitItUITests" */;
+			buildPhases = (
+				DFBA151D25B7C7D900CCEDFD /* Sources */,
+				DFBA151E25B7C7D900CCEDFD /* Frameworks */,
+				DFBA151F25B7C7D900CCEDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBA152325B7C7D900CCEDFD /* PBXTargetDependency */,
+			);
+			name = SplitItUITests;
+			productName = SplitItUITests;
+			productReference = DFBA152125B7C7D900CCEDFD /* SplitItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DFBA152925B7C7D900CCEDFD /* SplitIt WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBA155225B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitIt WatchKit App" */;
+			buildPhases = (
+				DFBA152825B7C7D900CCEDFD /* Resources */,
+				DFBA155125B7C7DA00CCEDFD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBA153925B7C7DA00CCEDFD /* PBXTargetDependency */,
+			);
+			name = "SplitIt WatchKit App";
+			productName = "SplitIt WatchKit App";
+			productReference = DFBA152A25B7C7D900CCEDFD /* SplitIt WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DFBA153525B7C7DA00CCEDFD /* SplitIt WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBA154E25B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitIt WatchKit Extension" */;
+			buildPhases = (
+				DFBA153225B7C7DA00CCEDFD /* Sources */,
+				DFBA153325B7C7DA00CCEDFD /* Frameworks */,
+				DFBA153425B7C7DA00CCEDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplitIt WatchKit Extension";
+			productName = "SplitIt WatchKit Extension";
+			productReference = DFBA153625B7C7DA00CCEDFD /* SplitIt WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFBA14FD25B7C7D700CCEDFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DFBA150425B7C7D700CCEDFD = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DFBA151525B7C7D900CCEDFD = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DFBA150425B7C7D700CCEDFD;
+					};
+					DFBA152025B7C7D900CCEDFD = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DFBA150425B7C7D700CCEDFD;
+					};
+					DFBA152925B7C7D900CCEDFD = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DFBA153525B7C7DA00CCEDFD = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DFBA150025B7C7D700CCEDFD /* Build configuration list for PBXProject "SplitIt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFBA14FC25B7C7D700CCEDFD;
+			productRefGroup = DFBA150625B7C7D700CCEDFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBA150425B7C7D700CCEDFD /* SplitIt */,
+				DFBA151525B7C7D900CCEDFD /* SplitItTests */,
+				DFBA152025B7C7D900CCEDFD /* SplitItUITests */,
+				DFBA152925B7C7D900CCEDFD /* SplitIt WatchKit App */,
+				DFBA153525B7C7DA00CCEDFD /* SplitIt WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFBA150325B7C7D700CCEDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA151025B7C7D900CCEDFD /* Preview Assets.xcassets in Resources */,
+				DFBA150D25B7C7D900CCEDFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA151425B7C7D900CCEDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA151F25B7C7D900CCEDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA152825B7C7D900CCEDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA153025B7C7DA00CCEDFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA153425B7C7DA00CCEDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA154925B7C7DA00CCEDFD /* Preview Assets.xcassets in Resources */,
+				DFBA154625B7C7DA00CCEDFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFBA150125B7C7D700CCEDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA150B25B7C7D700CCEDFD /* ContentView.swift in Sources */,
+				DFBA150925B7C7D700CCEDFD /* SplitItApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA151225B7C7D900CCEDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA151B25B7C7D900CCEDFD /* SplitItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA151D25B7C7D900CCEDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA152625B7C7D900CCEDFD /* SplitItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA153225B7C7DA00CCEDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA154025B7C7DA00CCEDFD /* NotificationController.swift in Sources */,
+				DFBA153E25B7C7DA00CCEDFD /* ContentView.swift in Sources */,
+				DFBA154425B7C7DA00CCEDFD /* ComplicationController.swift in Sources */,
+				DFBA153C25B7C7DA00CCEDFD /* SplitItApp.swift in Sources */,
+				DFBA154225B7C7DA00CCEDFD /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFBA151825B7C7D900CCEDFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBA150425B7C7D700CCEDFD /* SplitIt */;
+			targetProxy = DFBA151725B7C7D900CCEDFD /* PBXContainerItemProxy */;
+		};
+		DFBA152325B7C7D900CCEDFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBA150425B7C7D700CCEDFD /* SplitIt */;
+			targetProxy = DFBA152225B7C7D900CCEDFD /* PBXContainerItemProxy */;
+		};
+		DFBA152D25B7C7D900CCEDFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBA152925B7C7D900CCEDFD /* SplitIt WatchKit App */;
+			targetProxy = DFBA152C25B7C7D900CCEDFD /* PBXContainerItemProxy */;
+		};
+		DFBA153925B7C7DA00CCEDFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBA153525B7C7DA00CCEDFD /* SplitIt WatchKit Extension */;
+			targetProxy = DFBA153825B7C7DA00CCEDFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFBA154C25B7C7DA00CCEDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFBA154D25B7C7DA00CCEDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DFBA154F25B7C7DA00CCEDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SplitIt WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SplitIt WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitIt.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		DFBA155025B7C7DA00CCEDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SplitIt WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SplitIt WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitIt.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		DFBA155325B7C7DA00CCEDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				IBSC_MODULE = SplitIt_WatchKit_Extension;
+				INFOPLIST_FILE = "SplitIt WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitIt.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		DFBA155425B7C7DA00CCEDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				IBSC_MODULE = SplitIt_WatchKit_Extension;
+				INFOPLIST_FILE = "SplitIt WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitIt.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		DFBA155725B7C7DA00CCEDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SplitIt/Preview Content\"";
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SplitIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFBA155825B7C7DA00CCEDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SplitIt/Preview Content\"";
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SplitIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBA155A25B7C7DA00CCEDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = SplitItTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitIt.app/SplitIt";
+			};
+			name = Debug;
+		};
+		DFBA155B25B7C7DA00CCEDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = SplitItTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitIt.app/SplitIt";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBA155D25B7C7DA00CCEDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = SplitItUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SplitIt;
+			};
+			name = Debug;
+		};
+		DFBA155E25B7C7DA00CCEDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = SplitItUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.SplitItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SplitIt;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFBA150025B7C7D700CCEDFD /* Build configuration list for PBXProject "SplitIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA154C25B7C7DA00CCEDFD /* Debug */,
+				DFBA154D25B7C7DA00CCEDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBA154E25B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitIt WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA154F25B7C7DA00CCEDFD /* Debug */,
+				DFBA155025B7C7DA00CCEDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBA155225B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitIt WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA155325B7C7DA00CCEDFD /* Debug */,
+				DFBA155425B7C7DA00CCEDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBA155625B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA155725B7C7DA00CCEDFD /* Debug */,
+				DFBA155825B7C7DA00CCEDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBA155925B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA155A25B7C7DA00CCEDFD /* Debug */,
+				DFBA155B25B7C7DA00CCEDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBA155C25B7C7DA00CCEDFD /* Build configuration list for PBXNativeTarget "SplitItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA155D25B7C7DA00CCEDFD /* Debug */,
+				DFBA155E25B7C7DA00CCEDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFBA14FD25B7C7D700CCEDFD /* Project object */;
+}
